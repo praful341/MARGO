@@ -9,6 +9,7 @@ namespace MARGO
 {
     public partial class FrmCityMaster : Form
     {
+        int i = 0;
         BLL.FormEvents objBOFormEvents = new BLL.FormEvents();
         BLL.Validation Val = new BLL.Validation();
         CityMaster objCity = new CityMaster();
